@@ -1,0 +1,76 @@
+/* Resetting box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Removing default styles for lists, links, and other elements */
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+/* Setting a default line-height */
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Handling images and videos */
+img,
+picture,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+/* Removing default table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Setting default styles for form elements */
+input,
+textarea,
+select {
+  appearance: none;
+  background-color: transparent;
+}
+
+/* Removing default outline on focus */
+*:focus {
+  outline: 2px solid transparent;
+}
+
+/* Fixing specific issues for accessibility */
+[role="button"],
+button {
+  cursor: pointer;
+}
